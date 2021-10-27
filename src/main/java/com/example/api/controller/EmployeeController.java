@@ -21,7 +21,6 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 	
-	
 	@GetMapping("/employees/{id}")
 	public ResponseEntity<Employee> getEmployeeById(@PathVariable Integer id) {
 		
